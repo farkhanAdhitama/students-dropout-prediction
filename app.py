@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model, scaler, dan label encoder
-model = joblib.load("random_forest_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("model/random_forest_model.pkl")
+scaler = joblib.load("model/scaler.pkl")
 
 # Daftar fitur yang digunakan
 selected_features = [
